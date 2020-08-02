@@ -33,5 +33,8 @@ public class ConsumoKafka {
 				}
 			}
 		}
+		finally {
+			System.out.println("--- End ---");
+		}
 	}
 }

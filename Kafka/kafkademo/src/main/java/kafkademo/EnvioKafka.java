@@ -21,5 +21,8 @@ public class EnvioKafka {
 			ProducerRecord<String, String> record = new ProducerRecord<String, String>("testejava", "Hello World Kafka");
 			producer.send(record);
 		}
+		finally {
+			System.out.println("--- End ---");
+		}
 	}
 }

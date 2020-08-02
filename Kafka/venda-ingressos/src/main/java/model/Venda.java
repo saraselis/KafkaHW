@@ -10,10 +10,6 @@ public class Venda {
 	private BigDecimal valorTotal;
 	private String status;
 	
-	public static void main(String[] args) {
-		
-	}
-
 	public Long getOperacao() {
 		return operacao;
 	}
@@ -58,5 +54,13 @@ public class Venda {
 	public String toString() {
 		return "Venda [operacao=" + operacao + ", cliente=" + cliente + ", quantidadeIngressos=" + quantidadeIngressos
 				+ ", valorTotal=" + valorTotal + ", status=" + status + "]";
+	}
+
+	public Venda(Long operacao, Long cliente, Integer quantidadeIngressos, BigDecimal valorTotal) {
+		super();
+		this.operacao = operacao;
+		this.cliente = cliente;
+		this.quantidadeIngressos = quantidadeIngressos;
+		this.valorTotal = valorTotal;
 	}
 }
