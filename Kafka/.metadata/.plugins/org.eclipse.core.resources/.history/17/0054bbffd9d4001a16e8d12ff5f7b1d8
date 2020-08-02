@@ -1,0 +1,13 @@
+package kafkademo;
+
+import org.apache.kafka.clients.consumer.KafkaConsumer;
+
+public class ConsumoKafka {
+	public static void main(String[] args) {
+		
+		Properties properties = new Properties();
+		
+		KafkaConsumer<String, String> consumer = new KafkaConsumer<String, String>(properties);
+		
+	}
+}

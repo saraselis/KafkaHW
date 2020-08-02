@@ -1,0 +1,7 @@
+package kafkademo;
+
+public class ConsumoKafka {
+	public static void main(String[] args) {
+		
+	}
+}
