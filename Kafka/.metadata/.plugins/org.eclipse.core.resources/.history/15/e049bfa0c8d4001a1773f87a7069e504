@@ -1,0 +1,13 @@
+package kafkademo;
+
+import java.util.Properties;
+import org.apache.kafka.clients.producer.KafkaProducer;
+
+public class EnvioKafka {
+	public static void main(String[] args) {
+		Properties.properties = new Properties();
+		properties
+		new KafkaProducer<String, String>(properties);
+	}
+	
+}
